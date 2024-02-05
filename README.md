@@ -10,20 +10,23 @@ Sisteminize gereken derleme bağımlılıklarını kurun (örnek make, cmake ve 
 
 Sonra depoyu klonlayın;
 ```bash
-git clone https://github.com/ambrop72/badvpn```
+git clone https://github.com/ambrop72/badvpn
+```
 
 Sonrasında ise şu komutları çalıştırın;
 ```bash
 mkdir build
 cd build
 cmake .. -DCMAKE_INSTALL_PREFIX=.
-make -j4```
+make -j4
+```
 
 Bu komutlardan sonra badvpn deposunu kolnaldığınız badvpn dizinin içindeki build/ klasösürünün içindeki tun2socks/badvpn-tun2socks çalıştırılabilir dosyasını /bin klasörüne kopyalayın.
 
 # Kullanım
 
 ```bash
-sudo sh tun2socks.sh```
+sudo sh tun2socks.sh
+```
 
 Komutu ile kullanabilirsiniz.
